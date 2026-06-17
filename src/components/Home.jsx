@@ -31,6 +31,9 @@ const Home = () => {
                 >
                     <NavLink to="/main">
                         <motion.button
+                            initial={{ opacity: 0, x: 200 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 1.5 }}
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.95 }}
                             className="bg-red-700 flex items-center px-14 py-2 lg:px-30 lg:py-6 rounded-full cursor-pointer transition-transform duration-100">
