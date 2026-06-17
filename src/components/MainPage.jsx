@@ -24,7 +24,7 @@ const MainPage = () => {
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          className='font-semibold text-yellow-600 text-2xl sm:text-3xl lg:text-6xl pb-16'>pick one(the cake one first PLEASE)</motion.h1>
+          className='font-semibold text-yellow-600 text-2xl sm:text-3xl lg:text-6xl pb-16 pt-44'>pick one(the cake one first PLEASE)</motion.h1>
       </div>
       <div className='flex flex-col lg:flex-row justify-center items-center gap-24'>
         <NavLink to="/firstpart">
